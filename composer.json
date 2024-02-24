@@ -2,11 +2,6 @@
     "name": "sarah/plentific-coding-challenge",
     "description": "Pull, transform and create data from sample API",
     "type": "project",
-    "autoload": {
-        "psr-4": {
-            "Sarah\\PlentificCodingChallenge\\": "src/"
-        }
-    },
     "authors": [
         {
             "name": "Sarah Heanan",
@@ -14,5 +9,13 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {}
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/sarahLHeanan/plentific-coding-challenge-library"
+        }
+    ],
+    "require": {
+        "sarahheanan/plentific-coding-challenge-library": "dev-main"
+    }
 }
