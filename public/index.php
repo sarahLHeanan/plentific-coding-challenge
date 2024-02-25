@@ -22,13 +22,17 @@ use Sarahheanan\PlentificCodingChallengeLibrary\User;
         $user->testPackage() ?? 'package has not loaded';
     ?>
 
-    <h2>Demo GetUser() method</h2>
-
+    <h2>Demo Get() method</h2>
     <?php
-        // demo get user method
-        $user = $user->getUser(1);
+        $user = $user->get(1);
         var_dump($user);
     ?>
 
+    <h2>Demo Create() method</h2>
+    <?php
+        $newUser = new User();
+        $newUser = $newUser->createUser(2, 'test@example.com', 'Joe', 'Bloggs', 'test avatar string');
+        var_dump($newUser);
+    ?>
 </body>
 </html>
