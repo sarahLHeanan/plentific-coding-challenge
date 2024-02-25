@@ -24,7 +24,7 @@ use Sarahheanan\PlentificCodingChallengeLibrary\User;
 
     <h2>Demo Get() method</h2>
     <?php
-        $user = $user->get(1);
+        $user = $user->getUser(1);
         var_dump($user);
     ?>
 
