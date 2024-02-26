@@ -23,12 +23,27 @@ use Sarahheanan\PlentificCodingChallengeLibrary\User;
     ?>
 
     <h2>Demo Get() method</h2>
+    <span><b>Output: </b></span>
     <?php
         $user = $user->getUser(1);
         var_dump($user);
     ?>
 
+    <h2>Demo User List (index) method - return paginated array</h2>
+    <span><b>Output: </b></span>
+    <?php
+        $page = 1;
+        $pageSize = 2;
+
+        $newUser = new User();
+        $users = $newUser->index($page, $pageSize);
+
+        var_dump($users);
+
+    ?>
+
     <h2>Demo Create() method</h2>
+    <span><b>Output: </b></span>
     <?php
         $newUser = new User();
         $newUser = $newUser->createUser(2, 'test@example.com', 'Joe', 'Bloggs', 'test avatar string');
