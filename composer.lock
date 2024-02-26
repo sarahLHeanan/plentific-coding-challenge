@@ -546,12 +546,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/sarahLHeanan/plentific-coding-challenge-library.git",
-                "reference": "9d6cbeaac7164ac2322144a80d4a6994394caf18"
+                "reference": "ebc319ba5da8c3ab32085a1ab4f54302371e6977"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sarahLHeanan/plentific-coding-challenge-library/zipball/9d6cbeaac7164ac2322144a80d4a6994394caf18",
-                "reference": "9d6cbeaac7164ac2322144a80d4a6994394caf18",
+                "url": "https://api.github.com/repos/sarahLHeanan/plentific-coding-challenge-library/zipball/ebc319ba5da8c3ab32085a1ab4f54302371e6977",
+                "reference": "ebc319ba5da8c3ab32085a1ab4f54302371e6977",
                 "shasum": ""
             },
             "require": {
@@ -578,7 +578,7 @@
                 "source": "https://github.com/sarahLHeanan/plentific-coding-challenge-library/tree/main",
                 "issues": "https://github.com/sarahLHeanan/plentific-coding-challenge-library/issues"
             },
-            "time": "2024-02-26T21:52:33+00:00"
+            "time": "2024-02-26T22:09:03+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",

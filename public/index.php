@@ -45,9 +45,10 @@ use Sarahheanan\PlentificCodingChallengeLibrary\User;
     <h2>Demo Create() method</h2>
     <span><b>Output: </b></span>
     <?php
-        $newUser = new User();
-        $newUser = $newUser->createUser(2, 'test@example.com', 'Joe', 'Bloggs', 'test avatar string');
+        $anotherUser = new User();
+        $newUser = $anotherUser->createUser(2, 'test@example.com', 'Joe', 'Bloggs', 'test avatar string');
         var_dump($newUser);
     ?>
+    <p>Returned user id is: <span><?php echo $newUser; ?></p>
 </body>
 </html>
